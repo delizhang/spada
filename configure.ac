@@ -73,6 +73,7 @@ AC_CHECK_FUNCS(clock_gettime, [], [AC_CHECK_LIB(rt, clock_gettime, [AC_DEFINE([H
 
 AC_CONFIG_FILES([Makefile
                  src/Makefile
+                 src/client/Makefile
                  src/common/Makefile
                  src/store/Makefile
                  src/server/Makefile])

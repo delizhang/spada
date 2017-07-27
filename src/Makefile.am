@@ -1,1 +1,1 @@
-SUBDIRS = common store server
+SUBDIRS = common store server client
